@@ -11855,7 +11855,7 @@ body {
 }
 
 section {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 header {
@@ -11905,11 +11905,31 @@ nav, .textos {
 
 .maecenas-section {
   padding: 7%;
+  padding-bottom: 0;
 }
 .maecenas-section .maecenas h1, .maecenas-section .maecenas .h1 {
   font-size: 2.5rem;
 }
 .maecenas-section .paragraphes p {
+  font-size: 0.9rem;
+}
+
+.s2 > img {
+  background-color: grey;
+  width: 200px;
+  height: 200px;
+}
+.s2 > img button {
+  border-radius: 3px;
+  padding: 10px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.s3 .tittles {
+  margin-left: 10%;
+}
+.s3 .paragraphes {
   font-size: 0.9rem;
 }
 
