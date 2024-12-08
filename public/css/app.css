@@ -11903,4 +11903,14 @@ nav, .textos {
   font-size: 3rem;
 }
 
+.maecenas-section {
+  padding: 7%;
+}
+.maecenas-section .maecenas h1, .maecenas-section .maecenas .h1 {
+  font-size: 2.5rem;
+}
+.maecenas-section .paragraphes p {
+  font-size: 0.9rem;
+}
+
 /*# sourceMappingURL=app.css.map */
