@@ -11933,4 +11933,47 @@ nav, .textos {
   font-size: 0.9rem;
 }
 
+.bcgbottom {
+  font-family: "Poppins";
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -40px;
+  background-attachment: fixed;
+  position: relative;
+  height: 100%;
+}
+
+.bcgbottom:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+.bcgbottom:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: rgba(41, 41, 41, 0.516);
+  height: 100%;
+  z-index: 1;
+}
+
+.textsss {
+  position: relative;
+  z-index: 2;
+}
+.textsss button {
+  border-radius: 3px;
+  padding: 10px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
 /*# sourceMappingURL=app.css.map */
